@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import loveSound from "./love-sound.mp3";
 
 export default function ValentineGame() {
   const [yesSize, setYesSize] = useState(1);
